@@ -5,9 +5,11 @@
 测试中
 
 1、SDK初始化方法（Application中）：
+
     HHDoctorSDK.initSDK(Application application);
 
 2、进入互联网医院：
+
     HHDoctorSDK.openHospital(Activity activity);
     
 AndroidManifest参数配置：
