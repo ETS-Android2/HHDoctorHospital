@@ -2,7 +2,7 @@
 
 ## 蚂蚁云医-互联网医院SDK
 
-使用方法：测试中
+### 方法调用
 
 1、SDK初始化方法（Application中）：
 
@@ -11,7 +11,9 @@
 2、进入互联网医院：
 
     HHDoctorSDK.openHospital(Activity activity);
-    
+   
+   
+### 参数配置
 
 （一）、AndroidManifest的application标签下增加：
 
