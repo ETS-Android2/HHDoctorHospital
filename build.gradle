@@ -28,15 +28,15 @@ allprojects {
         }
         maven {
             credentials {
-                username '62145e4c8a5fa57059fff483'
-                password '9DOsuA_wfB0g'
+                username '用户名'
+                password '密码'
             }
             url 'https://packages.aliyun.com/maven/repository/2190323-release-1mIn35/'
         }
         maven {
             credentials {
-                username '62145e4c8a5fa57059fff483'
-                password '9DOsuA_wfB0g'
+                username '用户名'
+                password '密码'
             }
             url 'https://packages.aliyun.com/maven/repository/2190323-snapshot-cGH0Qq/'
         }
