@@ -10,7 +10,7 @@
 
 2、进入互联网医院：
 
-    HHDoctorSDK.openHospital(Activity activity);
+    HHDoctorSDK.openHospital(Activity activity,String phone);
    
    
 ### 参数配置
@@ -18,10 +18,10 @@
 （一）、AndroidManifest的application标签下增加：
 
     <meta-data
-        android:name="HHDoctorPartId"
+        android:name="partid"
         android:value="填写获取到的机构号"/>
     <meta-data
-        android:name="HHDoctorPartCode"
+        android:name="partcode"
         android:value="填写获取到的机构密钥"/>
         
         
@@ -47,5 +47,5 @@
  
  （三）、子build.gradle下添加：
  
-    implementation 'com.chuangjin:HHDoctorSDK:1.1.4'
+    implementation 'com.chuangjin:HHDoctorSDK:1.1.7'
  
